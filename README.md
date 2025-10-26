@@ -144,6 +144,7 @@ dd if=assets/landscape_test.raw of=/dev/fb1 bs=153600 count=1
 - [HARDWARE.md](docs/HARDWARE.md) - Hardware specifications
 - [INSTALLATION.md](docs/INSTALLATION.md) - Installation guide
 - [TESTING.md](docs/TESTING.md) - Testing procedures
+- [XORG_TESTING.md](docs/XORG_TESTING.md) - X11/Xorg configuration and testing
 - [PIN_CONFIGURATION.md](docs/PIN_CONFIGURATION.md) - GPIO pins
 - [ROTATION_GUIDE.md](docs/ROTATION_GUIDE.md) - Orientation guide
 
