@@ -26,7 +26,11 @@ sudo cp overlay/ili9341-zjy240-pins-right.dtbo /boot/overlays/
 ### Step 3: Edit Configuration
 
 ```bash
-sudo nano /boot/config.txt
+# For Volumio
+sudo nano /boot/userconfig.txt
+
+# For Raspberry Pi OS
+sudo nano /boot/firmware/config.txt
 ```
 
 Add:
@@ -73,7 +77,16 @@ sudo cp ../overlay/ili9341-zjy240-pins-right.dtbo /boot/overlays/
 
 ## Uninstallation
 
-Edit `/boot/config.txt`, comment out overlay line:
+Edit boot configuration:
+```bash
+# For Volumio
+sudo nano /boot/userconfig.txt
+
+# For Raspberry Pi OS
+sudo nano /boot/firmware/config.txt
+```
+
+Comment out overlay line:
 ```
 # dtoverlay=ili9341-zjy240-pins-right
 ```

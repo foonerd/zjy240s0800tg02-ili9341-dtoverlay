@@ -89,7 +89,16 @@ All overlays use the following GPIO pin assignments:
 sudo cp overlay/ili9341-zjy240-pins-right.dtbo /boot/overlays/
 ```
 
-2. Edit `/boot/config.txt`:
+2. Edit boot configuration:
+```bash
+# For Volumio
+sudo nano /boot/userconfig.txt
+
+# For Raspberry Pi OS
+sudo nano /boot/firmware/config.txt
+```
+
+Add:
 ```
 dtoverlay=ili9341-zjy240-pins-right
 ```
