@@ -101,6 +101,8 @@ sudo reboot
 
 ## Choosing the Right Overlay
 
+<div align="center">
+
 Select based on where the connector ribbon cable exits your physical installation:
 
 | Pins BOTTOM | Pins RIGHT |
@@ -114,6 +116,8 @@ Select based on where the connector ribbon cable exits your physical installatio
 | ![Pins TOP](assets/orientation-pins-top.png) | ![Pins LEFT](assets/orientation-pins-left.png) |
 | Portrait 240x320 | Landscape 320x240 |
 | `ili9341-zjy240-pins-top` | `ili9341-zjy240-pins-left` |
+
+</div>
 
 ## Test Images
 

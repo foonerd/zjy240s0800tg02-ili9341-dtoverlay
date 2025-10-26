@@ -30,7 +30,11 @@ This folder contains test images for verifying display rotation.
 
 **portrait_test.png (240x320)**
 
+<div align="center">
+
 ![Portrait Test Image](portrait_test.png)
+
+</div>
 
 - Visual reference showing correct portrait orientation
 - Four colored quadrants: Red (TL), Green (TR), Blue (BL), Yellow (BR)
